@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang = "vi">
+    <head>
+        <meta charset = "utf-8"/>
+        <meta name = "Võ Bá LỘc" content = "Tác giả">
+        <title>Bài tập Table</title>
+        <h1>1822040002 - Võ Bá Lộc</h1>
+        <hr/>
+    </head>
+    <body>
+        <form
+            action="signin.php"
+            method="post"
+        >
+        <table border = "1">
+            <tr>
+                <th colspan = "2" bgcolor = "yellow">Registration Form</th>
+            </tr>
+            <tr>
+                <td> <b>Enter name</b></td>
+                <td>
+                    <input type = "Text" name = "email" />
+                </td>
+            </tr>
+            <tr>
+                <td><b>Enter Password</b></td>
+                <td>
+                    <input type = "Password" name = "password"/> <br/>
+                </td>
+            </tr>
+            <tr>
+                <td><b>Enter Address</b></td>
+                <td>
+                    <textarea name="address"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td><b>Select Game</b></td>
+                <td><input type="checkbox" id="hockey" name="game"/>
+                    <label for="hockey">Hockey</label> <br/>
+                    <input type="checkbox" id="football" name="game"/>
+                    <label for="football">Football</label> <br/>
+                    <input type="checkbox" id="badminton" name="game"/>
+                    <label for="badminton">Badminton</label> <br/>
+                    <input type="checkbox" id="cricket" name="game"/>
+                    <label for="cricket">Cricket</label> <br/>
+                    <input type="checkbox" id="volleyball" name="game"/>
+                    <label for="volleyball">Volleyball</label> <br/>
+                </td>
+            </tr>
+            <tr>
+                <td><b>Gender</b></td>
+                <td>
+                    <input type="radio" id ="male" name="gender"/>
+                    <label for="male">Male</label>
+                    <input type="radio" id="famale" name="gender"/>
+                    <label for="male">famale</label>
+                </td>
+            </tr>
+            <tr>
+                <td><b>Age</b></td>
+                <td>
+                    <select name="age">
+                        <option value="18">18</option>
+                        <option value="18">19</option>
+                        <option value="18">20</option>.8
+                    </select>
+                </td>
+                
+            </tr>
+            <tr>
+                <td><b>Avatar</b></td>
+                <td>
+                    <input type="file" name="avatar"/>
+                </td>
+            </tr>
+            
+            <tr>
+                <td colspan="2">
+                    <input type="button" value="Click me" />
+                    <input type="reset" value="Reset" />
+                    <input type="submit" value="Submit" />
+                </td>
+            </tr>
+        </table>
+             
+        </form>
+    </body>
