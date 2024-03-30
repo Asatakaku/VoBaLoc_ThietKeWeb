@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(208, 221, 224);
+}
+h1{
+    text-align: center;
+    background-color: hsla(182, 80%, 47%, 0.3);
+}
+p{
+    font-family:'Tahoma';
+    font-size: 20px;
+    background-color: hsla(181, 42%, 79%, 0.3);
+}
+p.fourteen{
+    color: rgb(73, 23, 110)
+}
+p.thirdteen{
+    color: rgb(108, 33, 128)
+}
+p.twelve{
+    color: #63459d
+}
+p.eleven{
+    color: #5a51a2
+}
+p.ten{
+    color: #3853a4
+}
+p.nine{
+    color: #4690cd
+}
+p.eight{
+    color: #0ab8b6
+}
+p.seven{
+    color: #33a94b
+}
+p.six{
+    color: #4db749
+}
+p.five{
+    color: #84c341
+}
+p.four{
+    color: #fef200
+}
+p.three{
+    color: #ffc324
+}
+p.two{
+    color: #f78f1e
+}
+p.one{
+    color: #f46432
+}
+p.zero{
+    color: #ed1b26
+}
