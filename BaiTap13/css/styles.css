@@ -1,0 +1,33 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+h1{
+    text-align: center;
+    color:darkblue;
+    font-size: 38px;
+}
+div{
+    display:flex;
+    justify-content: center;
+}
+li{
+    font-size: 20px;
+}
+li>b{
+    color:darkmagenta;
+}
+p{
+    font-size: 20px;
+}
+#dichgia{
+    color:brown;
+}
+i{
+    color:bisque;
+    outline: 1px;
+}
+a{
+    font-size: 25px;
+    color:darkblue
+}
